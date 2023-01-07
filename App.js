@@ -36,10 +36,12 @@ function App() {
   return (
     <div className="App">
       <h1>Paper Store</h1>
-      <ItemValue>
-        title={value[0].title}
-        amount={value[0].amount} 
-      </ItemValue>
+      <ItemValue title={value[0].title} amount={value[0].amount}></ItemValue>
+      <ItemValue title={value[1].title} amount={value[1].amount}></ItemValue>
+      <ItemValue title={value[2].title} amount={value[2].amount}></ItemValue>
+      <ItemValue title={value[3].title} amount={value[3].amount}></ItemValue>
+      <ItemValue title={value[4].title} amount={value[4].amount}></ItemValue>
+      <ItemValue title={value[5].title} amount={value[5].amount}></ItemValue>
     </div>
   );
 }
